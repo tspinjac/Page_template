@@ -86,12 +86,14 @@ main h2 {
 }
 
 .col1-left, .col1-right {
+	vertical-align: top;
 	width: 50%;
 	height: 100%;
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
 }
+.col1-right {border:2px solid green; border-radius: 20px; padding:0 5%; max-height: 100%;}
 .col1-left img {
 	max-width: 100%;
 	max-height: 100%;
@@ -115,6 +117,7 @@ main h2 {
 	background-blend-mode: soft-light;
 }
 .col2-left, .col2-mid, .col2-right {
+	vertical-align: top;
 	padding: 35px;
 	display: inline-block;
 	max-width: 33.33333%;
@@ -136,25 +139,30 @@ i.fa {
 	background-repeat: no-repeat;
 	background-blend-mode: soft-light;
 }
-.col3-left, .col3-mid, .col3-right { 
+.col3-left, .col3-mid, .col3-right {
+	vertical-align: top; 
 	padding: 35px;
 	display: inline-block;
 	max-width: 33.33333%;
 	text-align: center;
 }
 
-/* ########### SECTION 4 #############*/
+/* ########### SECTION 4:; FOOTER  #############*/
 .section4 {    
 	margin-top: 50px;
     max-width: 100%;
     border-radius: 20px;
     background-color: #F2EFEF; 
 }
+
 .col4-left, .col4-mid, .col4-right { 
-	padding: 35px;
 	display: inline-block;
-	max-width: 33.33333%;
-	min-width: 33.33333%;
+	width: 33.33333%;
 	text-align: center;
 }
+
+.col4-left p, .col4-mid p, .col4-right p { }
 .copyright {text-align: center;  margin-bottom: 30px;}
+
+.
+/*##########  FOOTER ###########*/
