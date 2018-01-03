@@ -19,26 +19,22 @@ header {
 
 .logo {
 	display: inline-block;
-	width: 200px;
-	border: 1px solid green;
+	max-width: 300px;
+	
 }
+.logo .fa {font-size: 1.2em; color: red; margin-top:20px;}
+
 button {
 	border-radius: 8px;
 	background-color: #D92D2D;
 	color: white;
 	padding: 10px;
 }
-nav {
-	border: 1px solid green;
+nav, ul li {
 	display: inline-block;
 }
-ul {}
-ul li {
-	border: 1px solid red;
-	display: inline-block;
-}
+a {text-decoration: none; font-size: 1em; color: #2680e0; margin:20%;}
 header {
-	background-color: grey;
 	background-image: url("../img/zg_bg.jpg");
 	background-attachment: fixed;
 	background-size: cover;
@@ -112,11 +108,15 @@ main h2 {
 	max-width: 100%;
 	border-radius: 20px;
 	background-color: #F2EFEF;
+	background-image: url("../img/project_bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
 }
 .col2-left, .col2-mid, .col2-right {
 	padding: 35px;
 	display: inline-block;
-	min-width: 8%;
 	max-width: 33.33333%;
 	text-align: center;
 }
@@ -125,17 +125,36 @@ i.fa {
 	font-size: 55px;
 }
 
-/* ########## SECTION 3 ########## */
+/* ########## SECTION 3: Skills and passion; ########## */
 .section3 {     
+	margin-top: 50px;
+    max-width: 100%;
+    border-radius: 20px;
+	background-image: url("../img/skills_bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
+}
+.col3-left, .col3-mid, .col3-right { 
+	padding: 35px;
+	display: inline-block;
+	max-width: 33.33333%;
+	text-align: center;
+}
+
+/* ########### SECTION 4 #############*/
+.section4 {    
 	margin-top: 50px;
     max-width: 100%;
     border-radius: 20px;
     background-color: #F2EFEF; 
 }
-.col3-left, .col3-mid, .col3-right { 
+.col4-left, .col4-mid, .col4-right { 
 	padding: 35px;
 	display: inline-block;
-	min-width: 8%;
 	max-width: 33.33333%;
+	min-width: 33.33333%;
 	text-align: center;
 }
+.copyright {text-align: center;  margin-bottom: 30px;}
