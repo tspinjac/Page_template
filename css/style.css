@@ -8,7 +8,11 @@ body {
 	margin: 0 auto;
 	font-family: 'Roboto', sans- serif;
 	width: 90%;
+	background-color: 
 }
+
+
+/* ############  HEADER: NAV, LOGO, BUTTON*/
 header {
 	border: 1px solid green;
 }
@@ -33,7 +37,8 @@ button {
 nav, ul li {
 	display: inline-block;
 }
-a {text-decoration: none; font-size: 1em; color: #2680e0; margin:20%;}
+a {text-decoration: none; font-size: 1em; color: #2680e0; margin:20%; text-transform: uppercase;}
+
 header {
 	background-image: url("../img/zg_bg.jpg");
 	background-attachment: fixed;
@@ -165,4 +170,7 @@ i.fa {
 .copyright {text-align: center;  margin-bottom: 30px;}
 
 .
-/*##########  FOOTER ###########*/
+/*##########  MEDIA ###########*/
+@media only screen and (max-width:700px) { 
+	body {background-color:red;}
+}
