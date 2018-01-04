@@ -8,7 +8,6 @@ body {
 	margin: 0 auto;
 	font-family: 'Roboto', sans- serif;
 	width: 90%;
-	background-color: 
 }
 
 
@@ -98,12 +97,12 @@ main h2 {
 	text-align: center;
 	vertical-align: top;
 }
-.col1-right {border:2px solid green; border-radius: 20px; padding:0 5%; max-height: 100%;}
+.col1-right {padding:0 5%; }
 .col1-left img {
 	max-width: 100%;
 	max-height: 100%;
 	border-radius: 20px;
-	opacity: .7;
+	opacity: .6;
 }
 .col1-left img:hover {
 	opacity: .9;
@@ -171,6 +170,49 @@ i.fa {
 
 .
 /*##########  MEDIA ###########*/
-@media only screen and (max-width:700px) { 
-	body {background-color:red;}
+/* Prvi media je dummy koji mora biti tu, bez kojega ne radi? */
+@media screen and (min-width: 320px ){
+    body {background-color: black;}
+}
+
+
+
+@media screen and (max-width: 768px ){
+	
+	.col1-right {border-left:5px solid red; border-right:5px solid red; border-radius: 20px;}
+
+	.col1-left, .col1-right {
+		vertical-align: top;
+		width: 100%;
+		height: 100%;
+		display: block;
+		text-align: center;
+		vertical-align: top;
+	}
+
+	.col2-left, .col2-mid, .col2-right {
+		vertical-align: top;
+		padding: 35px;
+		display: block;
+		max-width: 100%;
+		text-align: center;
+		background-color:white;
+	}
+
+	.col3-left, .col3-mid, .col3-right {
+		vertical-align: top; 
+		padding: 35px;
+		display: block;
+		max-width: 100%;
+		text-align: center;
+		background-color:white;
+	}
+
+    .col4-left, .col4-mid, .col4-right {
+	    display: block;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 1.3em;
+	    background-color:white;
+	}
 }
