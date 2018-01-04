@@ -36,7 +36,7 @@ button {
 nav, ul li {
 	display: inline-block;
 }
-a {width: 80px; display:inline-block; text-decoration: none; font-size: 1em; color: #2680e0; margin-left:20px; text-transform: uppercase;}
+a {width: 80px; text-align:center; display:inline; text-decoration: none; font-size: 1em; color: #2680e0; margin-left:20px; text-transform: uppercase;}
 
 header {
 	background-image: url("../img/zg_bg.jpg");
